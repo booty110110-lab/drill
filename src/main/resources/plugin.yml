@@ -1,0 +1,15 @@
+name: Drill
+version: 1.0
+main: dev.drill.DrillPlugin
+api-version: '1.21'
+description: Бур 3x3x2
+commands:
+  drill:
+    description: Выдать бур
+    usage: /drill [ник]
+    permission: drill.give
+permissions:
+  drill.give:
+    default: op
+  drill.use:
+    default: true
